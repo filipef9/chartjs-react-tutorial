@@ -14,7 +14,7 @@ vscode:
 
 tasks:
 - name: Configure ENV WDS_SOCKET_PORT
-  command: echo -e "WDS_SOCKET_PORT=0" > /workspace/igti-react-agenda/.env
+  command: echo -e "WDS_SOCKET_PORT=0" > /workspace/chartjs-react-tutorial/.env
 - name: 'Frontend: start'
   command: |
     npm i
